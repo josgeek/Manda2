@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Páginas Bootstrap", "Páginas Bootstrap\", "{54BAB234-9DE8-41C1-8B33-AF850AF9A555}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_49836"
+		Debug.AspNetCompiler.PhysicalPath = "Páginas Bootstrap\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49836\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_49836"
+		Release.AspNetCompiler.PhysicalPath = "Páginas Bootstrap\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49836\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49836"
+		SlnRelativePath = "Páginas Bootstrap\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54BAB234-9DE8-41C1-8B33-AF850AF9A555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54BAB234-9DE8-41C1-8B33-AF850AF9A555}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3F42F89-BE90-424E-AAFA-7405E9BE8085}
+	EndGlobalSection
+EndGlobal
