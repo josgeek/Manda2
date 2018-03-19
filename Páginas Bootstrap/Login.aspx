@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="LoginRegistro.aspx.cs" Inherits="_Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Login.aspx.cs" Inherits="_Default" %>
 
 <!DOCTYPE html>
 
@@ -15,7 +15,7 @@
     <script src="App_Themes/Tema1/js/pooper.min.js"></script>
 
 
-    <title>Entrar</title>
+    <title>Inicar Sesión</title>
 </head>
 <body class="bg-inverse">
     <form id="form1" runat="server">
@@ -31,6 +31,7 @@
         <div class="row">
 
        <%--Iniciar Sesion--%>
+            <center>
         <div class="col-lg-6 col-lg-offset-3.5">
 
 
@@ -42,44 +43,24 @@
                  <br />
         <input type="email" id="email" class="form-control" placeholder="Correo electronico" required autofocus>
         <input type="password" id="contrasenia" class="form-control" placeholder="Contraseña" required>
-        <div class="checkbox">
+        <br />
+                 <%--<div class="checkbox">
             <input type="checkbox" value="remember-me" /> Recordar  
-        </div>
+        </div>--%>
             
         <button class="btn btn-lg btn-block btn-primary" type="submit">Acceder</button>
-      
+        <br />
+        <asp:Label runat="server">¿No tienes cuenta?</asp:Label>
+        <asp:LinkButton runat="server" id="redirectRegistro">Registrarme</asp:LinkButton>
 
     </div>
 
 
             
         </div>
+      </center>
 
-
-        <%--Registrarse--%>
-         <div class="col-lg-6 col-lg-offset-3.5">
-          
-       
-             <div class="jumbotron container">
-
-      
-        <h2 class="display-3">Registrarse</h2>
-        <br />
-        <input type="text" id="fullname" class="form-control" placeholder="Nombre completo" required autofocus>
-        <input type="text" id="username" class="form-control" placeholder="Nombre de usuario" required>
-        <input type="email" id="email" class="form-control" placeholder="Correo electronico" required>
-        <input type="password" id="password" class="form-control" placeholder="Contraseña" required>
-        <br />
-        <button class="btn btn-lg btn-block btn-primary" type="submit">Registrarse</button>
-       
-
-    </div>
-
-
-
-
-
-         </div>
+        
          </div>
          </div>
     </form>
