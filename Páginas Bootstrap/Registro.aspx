@@ -36,11 +36,23 @@
       
         <h2 class="display-3">Registrarse</h2>
         <br />
-        <input type="text" id="fullname" class="form-control" placeholder="Nombre completo" required autofocus>
-        <input type="text" id="username" class="form-control" placeholder="Nombre de usuario" required>
-        <input type="email" id="email" class="form-control" placeholder="Correo electronico" required>
-        <input type="password" id="password" class="form-control" placeholder="Contraseña" required>
+        <input type="text" id="nombre" class="form-control" placeholder="Nombre(s)" required="required" autofocus="autofocus"/>
+        <input type="text" id="Apaterno" class="form-control" placeholder="Apellido Paterno" required="required"/>
+        <input type="text" id="Amaterno" class="form-control" placeholder="Apellido Materno" required="required"/>
+        <input type="text" id="username" class="form-control" placeholder="Nombre de usuario" required="required"/>
+        <input type="email" id="email" class="form-control" placeholder="Correo electronico" required="required"/>
+        <input type="password" id="password" class="form-control" placeholder="Contraseña" required/="required">
+        <input type="password" id="confirmpassword" class="form-control" placeholder="Vuelve a escribir la contraseña" required="required"/>
         <br />
+        <div>
+        <asp:Label runat="server">Planeo....</asp:Label>
+        <br />
+        <input type="checkbox" /> <asp:Label runat="server">Prestar Servicio </asp:Label>   
+                         
+        <input type="checkbox" /> <asp:Label runat="server">Contratar servicios </asp:Label>
+        <br />
+        </div>
+        <br />  
         <button class="btn btn-lg btn-block btn-primary" type="submit">Registrarse</button>
          <br />
         <asp:Label runat="server">¿Ya tienes cuenta?</asp:Label>
