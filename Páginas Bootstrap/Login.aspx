@@ -13,7 +13,7 @@
     <script src="App_Themes/Tema1/js/jquery.min.js"></script>
     <script src="App_Themes/Tema1/js/bootstrap.min.js"></script>
     <script src="App_Themes/Tema1/js/pooper.min.js"></script>
-
+    <script src="Funciones.js"></script>
 
     <title>Inicar Sesión</title>
 </head>
@@ -41,8 +41,8 @@
       
         <h2 class="display-3">Iniciar Sesión</h2>
                  <br />
-        <input type="email" id="email" class="form-control" placeholder="Correo electronico" required autofocus>
-        <input type="password" id="contrasenia" class="form-control" placeholder="Contraseña" required>
+        <input type="email" id="email" class="form-control" placeholder="Correo electronico" required="required" autofocus="autofocus" runat="server"/>
+        <input type="password" id="contrasenia" class="form-control" placeholder="Contraseña" required="required" runat="server"/>
         <br />
                  <%--<div class="checkbox">
             <input type="checkbox" value="remember-me" /> Recordar  
@@ -51,7 +51,7 @@
         <button class="btn btn-lg btn-block btn-primary" type="submit">Acceder</button>
         <br />
         <asp:Label runat="server">¿No tienes cuenta?</asp:Label>
-        <asp:LinkButton runat="server" id="redirectRegistro">Registrarme</asp:LinkButton>
+        <asp:LinkButton runat="server" id="redirectRegistro" href="Registro.aspx">Registrarme</asp:LinkButton>
 
     </div>
 

@@ -20,12 +20,6 @@
     <form id="form1" runat="server">
       
         <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-
 
         <center>
          <div class="col-lg-6 col-lg-offset-3.5">
@@ -41,7 +35,7 @@
         <input type="text" id="Amaterno" class="form-control" placeholder="Apellido Materno" required="required"/>
         <input type="text" id="username" class="form-control" placeholder="Nombre de usuario" required="required"/>
         <input type="email" id="email" class="form-control" placeholder="Correo electronico" required="required"/>
-        <input type="password" id="password" class="form-control" placeholder="Contraseña" required/="required">
+        <input type="password" id="password" class="form-control" placeholder="Contraseña" required/="required"/>
         <input type="password" id="confirmpassword" class="form-control" placeholder="Vuelve a escribir la contraseña" required="required"/>
         <br />
         <div>
@@ -56,7 +50,7 @@
         <button class="btn btn-lg btn-block btn-primary" type="submit">Registrarse</button>
          <br />
         <asp:Label runat="server">¿Ya tienes cuenta?</asp:Label>
-        <asp:LinkButton runat="server" id="redirectRegistro">Inciar Sesión</asp:LinkButton>       
+        <asp:LinkButton runat="server" id="redirectRegistro" href="Login.aspx">Inciar Sesión</asp:LinkButton>       
 
     </div>
 
